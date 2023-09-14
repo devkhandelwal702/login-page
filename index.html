@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>LOGIN</h1>
+        <hr>
+        <br>
+        <div>
+            <p style="font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Please enter your email and password!!</p>
+        </div>
+        <br>
+        <div id="loginform">
+            <form onsubmit="return login()" action="welcome.html">
+                <input name="emailId" type="email" id="email" class="details" placeholder="Email">
+                <br><br>
+                <input name="password" type="password" id="password" class="details" placeholder="Password">
+                <br><br><br>
+                <button type="submit" id="submit">Login</button>
+                <br><br><br>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
